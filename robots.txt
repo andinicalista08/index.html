@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bursaslotofficial.org/sitemap.xml
+Sitemap: https://bursaslotofficial.org/sitemap.html
