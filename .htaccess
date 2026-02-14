@@ -1,0 +1,16 @@
+# =========================================================
+# 302 GO LINKS (CTA Redirect)
+# =========================================================
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # /go-login  -> 302 ke bursaslotpaten.com
+  RewriteRule ^go-login/?$ https://bursaslotpaten.com/? [R=302,L,NE]
+
+  # /go-daftar -> 302 ke playwithbrs register
+  RewriteRule ^go-daftar/?$ https://www.playwithbrs.info/home?register&ref=SEOREFERAL [R=302,L,NE]
+
+  # (opsional) dukung format /go/login dan /go/daftar juga
+  RewriteRule ^go/login/?$ https://bursaslotpaten.com/? [R=302,L,NE]
+  RewriteRule ^go/daftar/?$ https://www.playwithbrs.info/home?register&ref=SEOREFERAL [R=302,L,NE]
+</IfModule>
